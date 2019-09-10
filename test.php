@@ -18,7 +18,7 @@ $Instagram = new Insta();
 // ]);
 
 try {
-    $account = $Instagram->getAccount('_mattGrubb');
+    $account = $Instagram->getMedias('_mattGrubb', 20);
 
     var_dump($account);
 } catch (\Exception $e) {

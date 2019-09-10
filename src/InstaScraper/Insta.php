@@ -203,8 +203,8 @@ class Insta
         // If user is not set, throw exception
         if (!isset($userArray['entry_data']['ProfilePage'][0]['graphql']['user'])) {
             throw new InstagramEncodedException([
-                'error_code' => 404,
-                'error_reason' => 'Account with this username does not exist'
+                'error_code' => 500,
+                'error_reason' => 'Unable to retrieve graphql data from page.'
             ]);
         }
 
