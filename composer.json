@@ -1,21 +1,17 @@
 {
-  "name": "robert-grubb/insta-scraper",
+  "name": "heartbeat-dev/insta-scraper",
   "description": "Instagram PHP Scraper. Get account information, photos and videos without any authorization",
   "keywords": [
     "instagram",
     "scraper"
   ],
   "type": "library",
-  "homepage": "https://github.com/RobertGrubb/insta-scraper",
+  "homepage": "https://github.com/heartbeat-dev/insta-scraper",
   "license": "MIT",
   "authors": [
     {
-      "name": "RobertGrubb",
-      "email": "mgrubb0507@gmail.com"
-    },
-    {
-      "name": "raiym",
-      "email": "r.kapishev@gmail.com"
+      "name": "Matt Grubb",
+      "email": "matt@heartbeat.com"
     }
   ],
   "require": {
@@ -32,6 +28,6 @@
     }
   },
   "support": {
-    "email": "mgrubb0507@gmail.com"
+    "email": "matt@heartbeat.com"
   }
 }
